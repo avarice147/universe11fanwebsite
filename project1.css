@@ -1,0 +1,173 @@
+
+/****************************
+HOMEPAGE BACKGROUND AND TEXT
+******************************/
+
+.homepagebackground {
+    background-image: url(images/homepage.jpg);
+    background-repeat: no-repeat; repeat;
+    background-size: cover;
+    font-family: 'Joti One', cursive;
+    text-shadow: 2px 2px red;
+    font-size: 30px;
+    font-weight: 15px;
+    line-height: 2em;
+    position: relative;
+    padding: auto;
+}
+#placementtext {
+    position: absolute;
+    top: 250px;
+    right: 250px;
+
+}
+
+/*********************************
+CONTACT PAGE BORDER BACKGROUND AND TEXT
+**********************************/
+
+.borderhtml {
+  border-top: 40px solid #b90000;
+  border-width: 30px;
+  position:relative;
+  font-family: 'Joti One', cursive;
+
+
+}
+
+
+
+/*************************
+NAVIGATION BAR STYLING
+**************************/
+ul {
+    list-style-type: none;
+    margin-top: -8px;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+    width: 1920px;
+    margin-left: -8px;
+
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+  display: block;
+  text-decoration: none;
+  color: red;
+  border: 1px solid red;
+  text-align: center;
+  padding: 14px 203px;
+  height: 32px;
+  width: 72px;
+
+
+}
+
+li a:hover {
+    background-color: #450045;
+}
+
+
+/***************************
+IMAGES STYLING IN CONTACT
+***************************/
+#background {
+  background-image: url(images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  font-family: 'Joti One', cursive;
+  padding: 0 auto;
+  margin: 0 auto;
+
+}
+
+
+.contactimg {
+  width: 125;
+  height: 250px;
+  border-radius: 20%;
+  position: absolute;
+  left: 715px;
+  top: 650px;
+
+
+}
+
+/******************************************
+HEADINGS AND PARAGRAPHS CONTENT FOR CONTACT
+********************************************/
+
+.h4plow {
+    text-align: center;
+}
+
+#lol {
+    position: absolute;
+    font-size: 35px;
+    top: 190px;
+    left: 650px;
+    color: black;
+    text-shadow: 2px 2px red;
+}
+
+
+.h4plow2 {
+    text-align: left;
+    position: absolute;
+    top: 340px;
+    left: 100px;
+    text-shadow: 2px 2px red;
+}
+
+.h4plow3 {
+  position: absolute;
+  left: 850px;
+  top: 370px;
+
+}
+
+
+
+
+
+/******************************
+NAVIGATION TEXT BAR STYLING
+*******************************/
+#h4contact {
+  text-align: right;
+  font-size: .75em;
+  line-height: 1em;
+
+}
+
+.formcontent {
+    position: absolute;
+    margin: auto;
+    top: 400px;
+    left: 100px;
+}
+
+.resizetextbox {
+    width: 300px;
+    height: 25px;
+
+}
+
+.resizemessage {
+    width: 300px;
+    height: 220px;
+    line-height: 5em;
+
+}
+
+.resizebuttons {
+    width: 70px;
+    height: 25px;
+}

@@ -1,0 +1,371 @@
+/*******************
+TOP BAR COLOR
+*******************/
+html {
+  border-top: 40px solid #b90000;
+  border-width: 30px;
+  position:relative;
+
+
+}
+
+/***********************
+BODY STYLING
+***********************/
+body {
+  font-family: 'Joti One', cursive;
+  font-size: 1em;
+  font-weight: 100;
+  line-height: 1em;
+  margin: 0 auto;
+  padding: 0 auto;
+  color: #000000;
+  background-image: url(images/background.jpg);
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+/*****************
+BOX STYLING Members
+*******************/
+
+.container {
+  position: relative;
+  float: left;
+  width: 400px;
+  height: 420px;
+  background-color: #b90000;
+  left: 270px;
+  top: 80px;
+  border: 3px solid black;
+  margin: 20px;
+  text-shadow: 2px 2px red;
+}
+
+#box1 {
+
+	line-height: .3em;
+
+}
+
+#box2 {
+  line-height: .5em;
+
+}
+
+#box3 {
+ line-height: .3em;
+}
+
+#jiren1member {
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  left: 100px;
+  top: -50px;
+  border: 3px solid black;
+
+
+
+}
+
+#toppo1member {
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  left: 100px;
+  top: -50px;
+  border: 3px solid black;
+
+
+}
+
+#dyspo1member {
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  left: 100px;
+  top: -50px;
+  border: 3px solid black;
+
+
+}
+
+
+#readmoreJiren {
+  position: relative;
+  background-color: #b90000;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  bottom: 25px;
+  left: 100px;
+}
+
+
+#readmoreToppo {
+  position: relative;
+  background-color: #b90000;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  bottom: 75px;
+  left: 100px;
+}
+
+
+#readmoreDyspo {
+  position: relative;
+  background-color: #b90000;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  bottom: 75px;
+  left: 100px;
+}
+
+/****************
+ IMAGE STYLING
+****************/
+
+img {
+  border-radius: 10%;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
+
+
+
+.jiren1 {
+	height: auto;
+	width: auto;
+	border-radius: 50%;
+	position: relative;
+  margin-top: 10px;
+  left: 0;
+  padding: 0px;
+}
+
+.dyspo1 {
+  height: 200px;
+	width: auto;
+	border-radius: 20%;
+	position: relative;
+  margin-top: 20px;
+  left: 0;
+  padding: 0px;
+
+}
+.toppo1 {
+  height: auto;
+	width: auto;
+	border-radius: 20%;
+	position: relative;
+  margin-top: 20px;
+  left: 0;
+  padding: 0px;
+
+
+}
+
+
+
+
+
+
+
+/**************
+HEADLINE STYLING
+**************/
+
+
+
+h1 {
+  font-size: 2em;
+  line-height: 1em;
+  color: #000000;
+  text-align: center;
+  text-shadow: 2px 2px red;
+  margin-top: 70px;
+  padding-left: 10px;
+}
+
+h2 {
+  font-size: 2em;
+  line-height: 1em;
+  font-weight: 20px;
+  color: #b90000;
+  text-align: center;
+  margin-top: 30px;
+  padding-left: 10px;
+}
+h3 {
+  text-align: center;
+  font-size: 2em;
+  line-height: 1em;
+  color: #000000;
+  text-shadow: 2px 2px red;
+  margin-top: 50px;
+  padding-left: 10px;
+}
+h4 {
+  font-size: 5em
+  line-height: 4em;
+  color: #450045;
+  margin-top: 100px;
+  padding-left: 10px;
+}
+ul {
+  font-size: 1em;
+  line-height: 2em;
+  color: #b90000;
+  padding-left: 10px;
+}
+p {
+	font-size: 1em;
+	line-height: 1.5em;
+	color: #000000;
+  padding-left: 10px;
+}
+
+
+
+/**********************
+DIV STYLING
+**********************/
+
+.quiz {
+	text-align: right;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	margin-right: 100px;
+	margin-left: 50px;
+	color: #000000;
+}
+
+.quizjiren {
+  position: relative;
+  bottom: 450px;
+  margin: 5px;
+}
+
+.quiztoppo {
+  position: relative;
+  bottom: 450px;
+  margin: 5px;
+}
+
+.quizdyspo {
+  position: relative;
+  bottom: 450px;
+  margin: 5px;
+}
+
+
+.toppoimg {
+	max-height: 35%;
+	max-width: 45%;
+	margin: 0 auto;
+
+
+}
+.jirenimg {
+	max-height: 600%;
+	max-width: 655%;
+	margin: 0 auto;
+}
+
+
+.margin {
+  position: absolute;
+
+}
+
+.watchmore {
+    position: relative;
+    left: 800px;
+    bottom: 300px;
+
+
+}
+
+#jirenlink {
+    text-decoration: none;
+}
+
+#toppolink {
+    text-decoration: none;
+}
+
+#dyspolink {
+    text-decoration: none;
+}
+
+
+
+/***********************
+NAVIGATION STYLING
+***********************/
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+    width: 1916px;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+  display: block;
+  text-decoration: none;
+  color: red;
+  border: 1px solid red;
+  text-align: center;
+  padding: 14px 210px;
+  width: 57px;
+
+
+}
+
+li a:hover {
+    background-color: #450045;
+}
+
+#Video1 {
+  position:absolute;
+  top: 200px;
+  left: 690px;
+  width: auto;
+  border:2px solid black;
+  display:block;
+  }
+
+  .videojiren {
+      position: relative;
+      bottom: 350px;
+      left: 720px;
+  }
+
+  .videotoppo {
+      position: relative;
+      bottom: 350px;
+      left: 720px;
+  }
+  .videodyspo {
+      position: relative;
+      bottom: 350px;
+      left: 720px;
+  }
